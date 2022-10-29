@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <VideoView
+        android:id="@+id/simpleVideoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:background="#070707"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_home1"
+        app:tint="#F6F5F5" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#050505"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:srcCompat="@drawable/ic_camvideo_foreground"
+        app:tint="#F8F3F3" />
+
+    <ImageView
+        android:id="@+id/perfilImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="#070707"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:srcCompat="@drawable/ic_person_foreground"
+        app:tint="#FAF6F6" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:background="#050505"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/perfilImageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:srcCompat="@drawable/ic_notifications_foreground"
+        app:tint="#FBF7F7" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="83dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#020202"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:srcCompat="@drawable/ic_internodatos_foreground"
+        app:tint="#FBF7F7" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/Like3ImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:background="#0B0B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Like2ImageView"
+        app:srcCompat="@drawable/ic_caratriste_foreground"
+        app:tint="#FBF9F9" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="8dp"
+        android:background="#050505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Like3ImageView"
+        app:srcCompat="@drawable/ic_comentar_foreground"
+        app:tint="#F4F0F0" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="8dp"
+        android:background="#050505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        app:srcCompat="@drawable/ic_compartir_foreground"
+        app:tint="#F8F8F8" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/Like2ImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="#030404"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Likeimage"
+        app:srcCompat="@drawable/ic_cararisa_foreground"
+        app:tint="#FAFAFA" />
+
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:background="#020202"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:srcCompat="@drawable/ic_download_foreground"
+        app:tint="#F6F5F5" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/Likeimage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:background="#020202"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_corazon_foreground"
+        app:tint="#F6F4F4" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Likeimage5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="210dp"
+        android:foreground="@drawable/fondoo"
+        app:cardCornerRadius="65dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
